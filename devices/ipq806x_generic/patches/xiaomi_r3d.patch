@@ -601,13 +601,6 @@ index 0000000000000..fd952d230c5da
 +		reg = <0x42000000 0x3e000000>;
 +	};
 +
-+	reserved-memory {
-+		rsvd@44600000 {
-+			reg = <0x44600000 0x200000>; /* IPQ_TZ_APPS_ADDR */
-+			no-map;
-+		};
-+	};
-+
 +	aliases {
 +		label-mac-device = &gmac1;
 +
